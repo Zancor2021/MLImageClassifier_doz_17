@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6CCF52625C41EF9002CA868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF52525C41EF9002CA868 /* AppDelegate.swift */; };
+		D6CCF52825C41EF9002CA868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF52725C41EF9002CA868 /* SceneDelegate.swift */; };
+		D6CCF52A25C41EF9002CA868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF52925C41EF9002CA868 /* ViewController.swift */; };
+		D6CCF52D25C41EF9002CA868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF52B25C41EF9002CA868 /* Main.storyboard */; };
+		D6CCF52F25C41EFD002CA868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF52E25C41EFD002CA868 /* Assets.xcassets */; };
+		D6CCF53225C41EFD002CA868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF53025C41EFD002CA868 /* LaunchScreen.storyboard */; };
+		D6CCF53D25C41EFE002CA868 /* MLImageClassifier_doz_17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF53C25C41EFE002CA868 /* MLImageClassifier_doz_17Tests.swift */; };
+		D6CCF54825C41EFE002CA868 /* MLImageClassifier_doz_17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF54725C41EFE002CA868 /* MLImageClassifier_doz_17UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CCF53925C41EFE002CA868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CCF51A25C41EF9002CA868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CCF52125C41EF9002CA868;
+			remoteInfo = MLImageClassifier_doz_17;
+		};
+		D6CCF54425C41EFE002CA868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CCF51A25C41EF9002CA868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CCF52125C41EF9002CA868;
+			remoteInfo = MLImageClassifier_doz_17;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6CCF52225C41EF9002CA868 /* MLImageClassifier_doz_17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLImageClassifier_doz_17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CCF52525C41EF9002CA868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CCF52725C41EF9002CA868 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6CCF52925C41EF9002CA868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CCF52C25C41EF9002CA868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CCF52E25C41EFD002CA868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CCF53125C41EFD002CA868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CCF53325C41EFD002CA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CCF53825C41EFE002CA868 /* MLImageClassifier_doz_17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageClassifier_doz_17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CCF53C25C41EFE002CA868 /* MLImageClassifier_doz_17Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLImageClassifier_doz_17Tests.swift; sourceTree = "<group>"; };
+		D6CCF53E25C41EFE002CA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CCF54325C41EFE002CA868 /* MLImageClassifier_doz_17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageClassifier_doz_17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CCF54725C41EFE002CA868 /* MLImageClassifier_doz_17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLImageClassifier_doz_17UITests.swift; sourceTree = "<group>"; };
+		D6CCF54925C41EFE002CA868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CCF51F25C41EF9002CA868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF53525C41EFE002CA868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF54025C41EFE002CA868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6CCF51925C41EF9002CA868 = {
+			isa = PBXGroup;
+			children = (
+				D6CCF52425C41EF9002CA868 /* MLImageClassifier_doz_17 */,
+				D6CCF53B25C41EFE002CA868 /* MLImageClassifier_doz_17Tests */,
+				D6CCF54625C41EFE002CA868 /* MLImageClassifier_doz_17UITests */,
+				D6CCF52325C41EF9002CA868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CCF52325C41EF9002CA868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CCF52225C41EF9002CA868 /* MLImageClassifier_doz_17.app */,
+				D6CCF53825C41EFE002CA868 /* MLImageClassifier_doz_17Tests.xctest */,
+				D6CCF54325C41EFE002CA868 /* MLImageClassifier_doz_17UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CCF52425C41EF9002CA868 /* MLImageClassifier_doz_17 */ = {
+			isa = PBXGroup;
+			children = (
+				D6CCF52525C41EF9002CA868 /* AppDelegate.swift */,
+				D6CCF52725C41EF9002CA868 /* SceneDelegate.swift */,
+				D6CCF52925C41EF9002CA868 /* ViewController.swift */,
+				D6CCF52B25C41EF9002CA868 /* Main.storyboard */,
+				D6CCF52E25C41EFD002CA868 /* Assets.xcassets */,
+				D6CCF53025C41EFD002CA868 /* LaunchScreen.storyboard */,
+				D6CCF53325C41EFD002CA868 /* Info.plist */,
+			);
+			path = MLImageClassifier_doz_17;
+			sourceTree = "<group>";
+		};
+		D6CCF53B25C41EFE002CA868 /* MLImageClassifier_doz_17Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CCF53C25C41EFE002CA868 /* MLImageClassifier_doz_17Tests.swift */,
+				D6CCF53E25C41EFE002CA868 /* Info.plist */,
+			);
+			path = MLImageClassifier_doz_17Tests;
+			sourceTree = "<group>";
+		};
+		D6CCF54625C41EFE002CA868 /* MLImageClassifier_doz_17UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CCF54725C41EFE002CA868 /* MLImageClassifier_doz_17UITests.swift */,
+				D6CCF54925C41EFE002CA868 /* Info.plist */,
+			);
+			path = MLImageClassifier_doz_17UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CCF52125C41EF9002CA868 /* MLImageClassifier_doz_17 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CCF54C25C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17" */;
+			buildPhases = (
+				D6CCF51E25C41EF9002CA868 /* Sources */,
+				D6CCF51F25C41EF9002CA868 /* Frameworks */,
+				D6CCF52025C41EF9002CA868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLImageClassifier_doz_17;
+			productName = MLImageClassifier_doz_17;
+			productReference = D6CCF52225C41EF9002CA868 /* MLImageClassifier_doz_17.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CCF53725C41EFE002CA868 /* MLImageClassifier_doz_17Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CCF54F25C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17Tests" */;
+			buildPhases = (
+				D6CCF53425C41EFE002CA868 /* Sources */,
+				D6CCF53525C41EFE002CA868 /* Frameworks */,
+				D6CCF53625C41EFE002CA868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CCF53A25C41EFE002CA868 /* PBXTargetDependency */,
+			);
+			name = MLImageClassifier_doz_17Tests;
+			productName = MLImageClassifier_doz_17Tests;
+			productReference = D6CCF53825C41EFE002CA868 /* MLImageClassifier_doz_17Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CCF54225C41EFE002CA868 /* MLImageClassifier_doz_17UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CCF55225C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17UITests" */;
+			buildPhases = (
+				D6CCF53F25C41EFE002CA868 /* Sources */,
+				D6CCF54025C41EFE002CA868 /* Frameworks */,
+				D6CCF54125C41EFE002CA868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CCF54525C41EFE002CA868 /* PBXTargetDependency */,
+			);
+			name = MLImageClassifier_doz_17UITests;
+			productName = MLImageClassifier_doz_17UITests;
+			productReference = D6CCF54325C41EFE002CA868 /* MLImageClassifier_doz_17UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CCF51A25C41EF9002CA868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = zancor;
+				TargetAttributes = {
+					D6CCF52125C41EF9002CA868 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D6CCF53725C41EFE002CA868 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D6CCF52125C41EF9002CA868;
+					};
+					D6CCF54225C41EFE002CA868 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D6CCF52125C41EF9002CA868;
+					};
+				};
+			};
+			buildConfigurationList = D6CCF51D25C41EF9002CA868 /* Build configuration list for PBXProject "MLImageClassifier_doz_17" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CCF51925C41EF9002CA868;
+			productRefGroup = D6CCF52325C41EF9002CA868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CCF52125C41EF9002CA868 /* MLImageClassifier_doz_17 */,
+				D6CCF53725C41EFE002CA868 /* MLImageClassifier_doz_17Tests */,
+				D6CCF54225C41EFE002CA868 /* MLImageClassifier_doz_17UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CCF52025C41EF9002CA868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CCF53225C41EFD002CA868 /* LaunchScreen.storyboard in Resources */,
+				D6CCF52F25C41EFD002CA868 /* Assets.xcassets in Resources */,
+				D6CCF52D25C41EF9002CA868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF53625C41EFE002CA868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF54125C41EFE002CA868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CCF51E25C41EF9002CA868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CCF52A25C41EF9002CA868 /* ViewController.swift in Sources */,
+				D6CCF52625C41EF9002CA868 /* AppDelegate.swift in Sources */,
+				D6CCF52825C41EF9002CA868 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF53425C41EFE002CA868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CCF53D25C41EFE002CA868 /* MLImageClassifier_doz_17Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CCF53F25C41EFE002CA868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CCF54825C41EFE002CA868 /* MLImageClassifier_doz_17UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CCF53A25C41EFE002CA868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CCF52125C41EF9002CA868 /* MLImageClassifier_doz_17 */;
+			targetProxy = D6CCF53925C41EFE002CA868 /* PBXContainerItemProxy */;
+		};
+		D6CCF54525C41EFE002CA868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CCF52125C41EF9002CA868 /* MLImageClassifier_doz_17 */;
+			targetProxy = D6CCF54425C41EFE002CA868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CCF52B25C41EF9002CA868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CCF52C25C41EF9002CA868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CCF53025C41EFD002CA868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CCF53125C41EFD002CA868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CCF54A25C41EFE002CA868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CCF54B25C41EFE002CA868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CCF54D25C41EFE002CA868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CCF54E25C41EFE002CA868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CCF55025C41EFE002CA868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLImageClassifier_doz_17.app/MLImageClassifier_doz_17";
+			};
+			name = Debug;
+		};
+		D6CCF55125C41EFE002CA868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLImageClassifier_doz_17.app/MLImageClassifier_doz_17";
+			};
+			name = Release;
+		};
+		D6CCF55325C41EFE002CA868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLImageClassifier_doz_17;
+			};
+			name = Debug;
+		};
+		D6CCF55425C41EFE002CA868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TXM23JGPB;
+				INFOPLIST_FILE = MLImageClassifier_doz_17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MLImageClassifier-doz-17UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLImageClassifier_doz_17;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CCF51D25C41EF9002CA868 /* Build configuration list for PBXProject "MLImageClassifier_doz_17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CCF54A25C41EFE002CA868 /* Debug */,
+				D6CCF54B25C41EFE002CA868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CCF54C25C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CCF54D25C41EFE002CA868 /* Debug */,
+				D6CCF54E25C41EFE002CA868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CCF54F25C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CCF55025C41EFE002CA868 /* Debug */,
+				D6CCF55125C41EFE002CA868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CCF55225C41EFE002CA868 /* Build configuration list for PBXNativeTarget "MLImageClassifier_doz_17UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CCF55325C41EFE002CA868 /* Debug */,
+				D6CCF55425C41EFE002CA868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CCF51A25C41EF9002CA868 /* Project object */;
+}
